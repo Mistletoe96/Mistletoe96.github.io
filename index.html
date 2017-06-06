@@ -267,6 +267,274 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://mistletoe96.github.io/2017/06/06/three/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="小玉的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/06/06/three/" itemprop="url">firfox插件的安装、配置与使用记录和结论</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-06T16:45:48+08:30">
+                2017-06-06
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>###前言<br>浏览器一直使用的chrome，觉得浏览网页很方便，前端开发的调试也挺方便顺手的，就没有去尝试使用其他的浏览器。整理一下chrome之前安装的一堆乱七八糟的插件还是可以完成作业的，想想还是重新装一个firfox尝试一下。</p>
+<h3 id="安装和插件选择"><a href="#安装和插件选择" class="headerlink" title="安装和插件选择"></a>安装和插件选择</h3><ol>
+<li>浏览器安装<br>选择官网下载安装，版本没有特别选择</li>
+<li>插件安装： <ul>
+<li>获取插件的地方：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/adblock-plus/?src=cb-dl-mostpopular" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/adblock-plus/?src=cb-dl-mostpopular</a><br>火狐中文社区：<a href="http://mozilla.com.cn/moz-addon.html" target="_blank" rel="external">http://mozilla.com.cn/moz-addon.html</a></li>
+<li>定制浏览器：点击菜单栏的定制，按照习惯选择隐藏/显示浏览器的顶部的一些东西，换一个喜欢的外观<img src="http://img.blog.csdn.net/20170411182603977?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvWmhvdVhpYW95dTYyNg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="定制"><h4 id="3-插件选择："><a href="#3-插件选择：" class="headerlink" title="3. 插件选择："></a>3. 插件选择：</h4></li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>FireGestures：用鼠标右键手势执行命令，便捷到令人发指<br>(手势使用图解:<a href="http://jingyan.baidu.com/article/4b52d702a90eacfc5c774b16.html" target="_blank" rel="external">http://jingyan.baidu.com/article/4b52d702a90eacfc5c774b16.html</a>)</li>
+<li>vimperator：可以完全用键盘操作浏览器，使用vim的方式来使用firefox. 对使用linux的人来说很方便.。上一个是鼠标右键控制，这一个是键盘控制。<br>详细的操作参： <a href="http://yife.im/firefox-vim-vimperator/" target="_blank" rel="external">http://yife.im/firefox-vim-vimperator/</a><br><a href="https://www.zfanw.com/blog/vimperator-firefox.html" target="_blank" rel="external">https://www.zfanw.com/blog/vimperator-firefox.html</a></li>
+<li>去广告类： Adoblock Plus、Adblock Plus的YouTube的™ （去视频广告）首先安装去广告插件，不解释。 </li>
+<li>网页截图：有全屏、特定区域、整个网页、编辑截图功能</li>
+<li>Save-To-Read：整理待浏览标签，避免标签数量爆炸</li>
+<li>IE Tab+:有些网站必须使用IE，打开网银比较方便</li>
+<li>Firebug:开发利器<br>(使用方法推荐: <a href="http://www.tuicool.com/articles/FvqeIv" target="_blank" rel="external">http://www.tuicool.com/articles/FvqeIv</a><br><a href="http://blog.csdn.net/crper/article/details/47823345?utm_source=tuicool&amp;utm_medium=referral" target="_blank" rel="external">http://blog.csdn.net/crper/article/details/47823345?utm_source=tuicool&amp;utm_medium=referral</a>)</li>
+<li>Greasemonkey：用户脚本管理器允许您通过使用少量的JavaScript脚本，自定义网页显示或表现方式</li>
+<li>All-in-one sidebar：在侧边栏中可以快速切换书签、下载项和扩展等面板，或者在侧边栏登陆，有了这个扩展,很多必须打开另一个窗口或者点几次工具菜单的工作通过侧栏就能完成了。简单点说，就是侧边栏扩展。</li>
+<li>Add to Search Bar即可将大部分的搜索引擎添加到你地火狐搜索中</li>
+<li>gtranslator：翻译插件，解决一部分阅读障碍问题</li>
+<li>Show Location：显示服务器的地理位置。利用 IP 数据库，在浏览器的链接输入框可以显示网页服务器的位置。鼠标右键提示复制 IP<br><img src="http://img.blog.csdn.net/20170411191029874?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvWmhvdVhpYW95dTYyNg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="3"><h4 id="4-使用记录和结论："><a href="#4-使用记录和结论：" class="headerlink" title="4. 使用记录和结论："></a>4. 使用记录和结论：</h4><ul>
+<li>和chrome相比，鼠标手势执行命令和键盘执行命令使用体验都很好，浏览网页不用再去点击红叉关闭，迅速返回上一个页面等等，解放双手。</li>
+<li>开发方面和区别不大，可能是我使用最频繁的功能只有控制台</li>
+<li>其他小功能使用感觉都还不错。之前用的chrome安装过很多插件，没有管理和优化导致cpu占用特别大，现在FF能不开启的插件就不开。</li>
+<li>FF的定制功能等等改变浏览器原本外观的插件挺喜欢的，浏览器哪些东西不想显示就隐藏了或者装个插件。</li>
+<li>FF的配置功能也挺方便</li>
+</ul>
+</li>
+</ul>
+<p>####几个有用的链接</p>
+<blockquote>
+<ol>
+<li>火狐插件火狐黑客插件将Firefox变成黑客工具的七个插件：<br><a href="http://blog.csdn.net/xysoul/article/details/45049959" target="_blank" rel="external">http://blog.csdn.net/xysoul/article/details/45049959</a></li>
+<li><a href="http://post.smzdm.com/p/500622/" target="_blank" rel="external">http://post.smzdm.com/p/500622/</a></li>
+<li>关于配置文档以及如何制作便携版 Firefox：<a href="http://www.tuicool.com/articles/nERZR3Z" target="_blank" rel="external">http://www.tuicool.com/articles/nERZR3Z</a></li>
+<li>解决firefox火狐浏览器占用内存大、启动慢问题的方法:<a href="http://blog.163.com/wwj0925@126/blog/static/191201102012222400800/?suggestedreading&amp;wumii" target="_blank" rel="external">http://blog.163.com/wwj0925@126/blog/static/191201102012222400800/?suggestedreading&amp;wumii</a> <a href="http://www.tuicool.com/articles/NBRzum" target="_blank" rel="external">http://www.tuicool.com/articles/NBRzum</a></li>
+<li>FireFox浏览器FoxyProxy配置：<a href="http://www.tuicool.com/articles/zyamm2" target="_blank" rel="external">http://www.tuicool.com/articles/zyamm2</a></li>
+</ol>
+</blockquote>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://mistletoe96.github.io/2017/06/06/two/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="小玉的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/06/06/two/" itemprop="url">我在写代码的时候使用搜索引擎来解决问题的完整过程</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-06T16:44:46+08:30">
+                2017-06-06
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h4 id="描述自己是如何使用搜索引擎来解决某个生活或技术问题的完整过程"><a href="#描述自己是如何使用搜索引擎来解决某个生活或技术问题的完整过程" class="headerlink" title="描述自己是如何使用搜索引擎来解决某个生活或技术问题的完整过程"></a>描述自己是如何使用搜索引擎来解决某个生活或技术问题的完整过程</h4><p>#前言<br>大二下学期参加竞赛的时候，负责团队项目开发的前端部分，其中交互功能的实现对于我来说是比较难的地方，使用js，jquery，ajax进行开发。团队中技术负责人给我一段参考代码，当时是完全没有用那些语言编写过代码。所以交互功能的代码都是一点一点百度，明白代码的功能，想要实现什么功能用什么函数，最后小白抱大腿完成了竞赛项目的交互功能的代码。</p>
+<h3 id="案例1"><a href="#案例1" class="headerlink" title="案例1"></a>案例1</h3><ul>
+<li>寻找对话框： 编辑删除功能需要一个弹出对话框或者来显示比较方便，但是自己写的不够美观，百度搜索了关键字：<br>弹出对话框插件<br><img src="http://img.blog.csdn.net/20170411215502505?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="弹出对话框插件"><br>搜索结果一般，没有找到特别想要的，想要好看一点的简洁一点的对话框<br>换了关键字： 漂亮的对话框 插件<br><img src="http://img.blog.csdn.net/20170411215606396?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvWmhvdVhpYW95dTYyNg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="漂亮的对话框 插件"><br>最后选了这个：<br><img src="http://img.blog.csdn.net/20170411215629678?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvWmhvdVhpYW95dTYyNg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><br>调成想要样式之后可以使用了：<br><img src="http://img.blog.csdn.net/20170411215828540?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvWmhvdVhpYW95dTYyNg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="最后"><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3></li>
+<li>搜索之前要先弄清楚你想要搜索的是什么种类东西，干什么用的，大概的描述一下特征用途种类等等，多换几次搜索姿势，总能找到你满意的。</li>
+<li>百度搜索和google搜索，总感觉google一次就能搜索到想要的，而且感觉搜索到的内容总是更贴近关键字，有一种比百度更懂你的感觉。所以我每次都是百度不到的时候，科学上网去google搜问题一下就解决了。</li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://mistletoe96.github.io/2017/06/06/one/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -701,7 +969,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">5</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
