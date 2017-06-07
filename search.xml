@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[我在写代码的时候使用搜索引擎来解决问题的完整过程]]></title>
+    <url>%2Ftwo.html</url>
+    <content type="text"><![CDATA[描述自己是如何使用搜索引擎来解决某个生活或技术问题的完整过程前言大二下学期参加竞赛的时候，负责团队项目开发的前端部分，其中交互功能的实现对于我来说是比较难的地方，使用js，jquery，ajax进行开发。团队中技术负责人给我一段参考代码，当时是完全没有用那些语言编写过代码。所以交互功能的代码都是一点一点百度，明白代码的功能，想要实现什么功能用什么函数，最后小白抱大腿完成了竞赛项目的交互功能的代码。 案例1 寻找对话框： 编辑删除功能需要一个弹出对话框或者来显示比较方便，但是自己写的不够美观，百度搜索了关键字：弹出对话框插件搜索结果一般，没有找到特别想要的，想要好看一点的简洁一点的对话框换了关键字： 漂亮的对话框 插件最后选了这个：调成想要样式之后可以使用了：总结 搜索之前要先弄清楚你想要搜索的是什么种类东西，干什么用的，大概的描述一下特征用途种类等等，多换几次搜索姿势，总能找到你满意的。 百度搜索和google搜索，总感觉google一次就能搜索到想要的，而且感觉搜索到的内容总是更贴近关键字，有一种比百度更懂你的感觉。所以我每次都是百度不到的时候，科学上网去google搜问题一下就解决了。]]></content>
+      <tags>
+        <tag>web作业</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[sublime插件安装]]></title>
+    <url>%2Ffirst.html</url>
+    <content type="text"><![CDATA[sublime txt3插件的安装及使用的效果sublime安装：直接从官网下载安装 插件安装安装的两种方式： 安装插件管理的插件Package Control。安装成功，就可以在Preferences菜单下看到Package Settings和Package Control两个菜单 手动安装：手动安装。点击Preferences-&gt;Browse Packages…菜单，进入打开的目录的上层目录（即Sublime Text 3目录） 插件 Package Control插件管理： 使用这个插件安装sublime的插件很方便。 使用：在Sublime Text 3中按下快捷键Ctrl+Shift+P在出现的文本框中输入Install Package(或直接输入“ip”)选中Install Package并回车（可能需要等待几秒钟，在此过程中不能进行任何鼠标/键盘操作） 输入或选择你需要的插件再按Enter（回车）就可以安装插件了安装过程中，左下角会显示正在安装的提示 JsFormat插件：将JS代码格式化使用Package Control安装JsFormat插件后即可在JS文件中通过鼠标右键-&gt;JsFormat或键盘快捷键Ctrl+Alt+F对JS进行格式化 Aligment插件：自动对齐代码，包括PHP、CSS、JavaScript语言。使得代码看起来更整齐美观，更具可读性。下载地址：https://github.com/wbond/sublime_alignment SublimeLinter是少数几个能在sublime text 3工作的代码检查插件，SublimeLinter支持JavaScript、CSS、HTML、Java、PHP、Python、Ruby等十多种开发语言，但前提是需要配置相应语言的环境，要检查JavaScript代码需要安装node.js，检查PHP代码需要安装PHP并配置环境等。SublimeLinter可以及时提示编写代码中存在的不规范和错误的写法，并培养我们良好的编码习惯和风格。 ColorPicker在编辑CSS样式的时候，要加个自己喜欢颜色或改改颜色啥的，要到PS里去调色？ColorPicker 可以让 Sublime Text 3内置一个调色盘，调好颜色，点击OK就会在光标处生成十六进制颜色代码。 GitGutter可视化的操作：帮助你与你的Git repo协议进行交互。它支持很多命令像init,push, pull, branch, stash,等等。了解更多关于你在Sublime Text里面究竟能使用哪些Git功能，以提高您的工作流程。 Emmet插件它让编写HTML代码变得极其简单高效 Tag插件：HTML/XML标签缩进、补全、排版和校验工具 CssComb插件为CSS属性进行排序和格式化插件使用Package Control安装CssComb插件后，它依赖于Node.js]]></content>
+      <tags>
+        <tag>插件安装</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[firfox插件的安装、配置与使用记录和结论]]></title>
+    <url>%2Fthree.html</url>
+    <content type="text"><![CDATA[前言浏览器一直使用的chrome，觉得浏览网页很方便，前端开发的调试也挺方便顺手的，就没有去尝试使用其他的浏览器。整理一下chrome之前安装的一堆乱七八糟的插件还是可以完成作业的，想想还是重新装一个firfox尝试一下。 安装和插件选择 浏览器安装选择官网下载安装，版本没有特别选择 插件安装： 获取插件的地方：https://addons.mozilla.org/zh-CN/firefox/addon/adblock-plus/?src=cb-dl-mostpopular火狐中文社区：http://mozilla.com.cn/moz-addon.html 定制浏览器：点击菜单栏的定制，按照习惯选择隐藏/显示浏览器的顶部的一些东西，换一个喜欢的外观3. 插件选择： FireGestures：用鼠标右键手势执行命令，便捷到令人发指(手势使用图解:http://jingyan.baidu.com/article/4b52d702a90eacfc5c774b16.html) vimperator：可以完全用键盘操作浏览器，使用vim的方式来使用firefox. 对使用linux的人来说很方便.。上一个是鼠标右键控制，这一个是键盘控制。详细的操作参： http://yife.im/firefox-vim-vimperator/https://www.zfanw.com/blog/vimperator-firefox.html 去广告类： Adoblock Plus、Adblock Plus的YouTube的™ （去视频广告）首先安装去广告插件，不解释。 网页截图：有全屏、特定区域、整个网页、编辑截图功能 Save-To-Read：整理待浏览标签，避免标签数量爆炸 IE Tab+:有些网站必须使用IE，打开网银比较方便 Firebug:开发利器(使用方法推荐: http://www.tuicool.com/articles/FvqeIvhttp://blog.csdn.net/crper/article/details/47823345?utm_source=tuicool&amp;utm_medium=referral) Greasemonkey：用户脚本管理器允许您通过使用少量的JavaScript脚本，自定义网页显示或表现方式 All-in-one sidebar：在侧边栏中可以快速切换书签、下载项和扩展等面板，或者在侧边栏登陆，有了这个扩展,很多必须打开另一个窗口或者点几次工具菜单的工作通过侧栏就能完成了。简单点说，就是侧边栏扩展。 Add to Search Bar即可将大部分的搜索引擎添加到你地火狐搜索中 gtranslator：翻译插件，解决一部分阅读障碍问题 Show Location：显示服务器的地理位置。利用 IP 数据库，在浏览器的链接输入框可以显示网页服务器的位置。鼠标右键提示复制 IP4. 使用记录和结论： 和chrome相比，鼠标手势执行命令和键盘执行命令使用体验都很好，浏览网页不用再去点击红叉关闭，迅速返回上一个页面等等，解放双手。 开发方面和区别不大，可能是我使用最频繁的功能只有控制台 其他小功能使用感觉都还不错。之前用的chrome安装过很多插件，没有管理和优化导致cpu占用特别大，现在FF能不开启的插件就不开。 FF的定制功能等等改变浏览器原本外观的插件挺喜欢的，浏览器哪些东西不想显示就隐藏了或者装个插件。 FF的配置功能也挺方便 几个有用的链接 火狐插件火狐黑客插件将Firefox变成黑客工具的七个插件：http://blog.csdn.net/xysoul/article/details/45049959 http://post.smzdm.com/p/500622/ 关于配置文档以及如何制作便携版 Firefox：http://www.tuicool.com/articles/nERZR3Z 解决firefox火狐浏览器占用内存大、启动慢问题的方法:http://blog.163.com/wwj0925@126/blog/static/191201102012222400800/?suggestedreading&amp;wumii http://www.tuicool.com/articles/NBRzum FireFox浏览器FoxyProxy配置：http://www.tuicool.com/articles/zyamm2]]></content>
+      <tags>
+        <tag>插件安装</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2Fhello-world.html</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
